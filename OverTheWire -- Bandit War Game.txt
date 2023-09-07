@@ -12,4 +12,4 @@ cat [FileName] --> opens shit
 man [CmdName] --> learn shit (the same thing as 'help')
 
 
-dfdf
+dfdf fff
