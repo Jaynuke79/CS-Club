@@ -1,0 +1,20 @@
+
+Directory Cmds:
+mkdir - Make Directory (folder)
+rmdir - Remove Directory
+
+
+File Cmds:
+touch [FileName].[FileType] - Creates File 
+nano [FileName] - Opens file in nano text editor (Mr. Bergen doesn't like this one)
+vi [FileName] - Opens file in vim text editor (Some files will only use this one; Mr. Bergen really loves this one)
+cat [FileName] - Runs file in console
+
+Vim Cmds:
+How to Exit & Save Editor:
+	Esc --> : --> wq (To exit without saving, use "q!" instead of "wq")
+
+Nano Cmds: 
+How to Exit & Save Editior:
+	^X --> Y --> "\n"
+

@@ -1,0 +1,13 @@
+
+OverTheWire -- Bandit War Game Passwords:
+
+Lvl 0 -- (cat readme) --> NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+Lvl 1 -- (cat ./-) --> rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi 
+Lvl 2 -- (cat 'spaces in this file name') or (cat spaces\ in\ this\ filename\) --> 
+
+
+Import / Interesting Cmds:
+
+cat [FileName] --> opens shit
+man [CmdName] --> learn shit (the same thing as 'help')
+
