@@ -46,6 +46,6 @@ test:
 git:
 	$ git status
 	$ git add File\ Manipulation.txt
-	$ git commit -m “file manip”
+	$ git commit -m “fi”
 	$ git push
 	$ git status
