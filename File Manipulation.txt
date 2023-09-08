@@ -21,3 +21,9 @@ How to Exit & Save Editior:
 
 
 makefile?
+
+git status
+git add stdio/main.cpp
+git commit -m “created stdio project and file”
+git push
+git status
