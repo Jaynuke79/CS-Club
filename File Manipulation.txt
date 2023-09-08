@@ -1,4 +1,4 @@
-
+kdnf
 Directory Cmds:
 mkdir - Make Directory (folder)
 rmdir - Remove Directory
