@@ -44,8 +44,9 @@ test:
 	clean
 
 git:
+	str date = date
 	$ git status
-	$ git add File\ Manipulation.txt
+	$ git add *
 	$ git commit -m “fi”
 	$ git push
 	$ git status
