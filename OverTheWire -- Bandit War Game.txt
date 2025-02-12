@@ -1,15 +1,22 @@
-
 OverTheWire -- Bandit War Game Passwords:
 
 Lvl 0 -- (cat readme) --> NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 Lvl 1 -- (cat ./-) --> rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi 
-Lvl 2 -- (cat 'spaces in this file name') or (cat spaces\ in\ this\ filename\) --> 
-
+Lvl 2 -- (cat 'spaces in this file name') or (cat spaces\ in\ this\ filename\) --> aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+Lvl 3 -- (cd inhere) --> (la) --> (cat .hidden) --> 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+Lvl 4 -- (cd inhere) --> (la) --> (cat ./-file07) --> lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+Lvl 5 -- (cd inhere) --> (la) --> (find ./ -type f -size 1033c ! -executable) -->  P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+Lvl 6 -- (find / -user bandit7 -group bandit6 -size 33c) --> brute force looking through each dir to find the one we have access to [inefficient] --> (cat /var/lib/dpkg/info/bandit7.password) --> z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
 Import / Interesting Cmds:
 
 cat [FileName] --> opens shit
 man [CmdName] --> learn shit (the same thing as 'help')
-
-
-dfdf fff
+^d --> Logs Out Everythgn
+"./" --> Means start from this directory that Im in
+file [directory]* --> Searchs all files and gives their data type
+ls -la --> Most indetail search of files in dir
+find [directory] -type [type] -size [number][size of data unit] ! -executable) --> finds files that fits paramaters
+	-type f --> means human readable
+	-size 1033c --> means 1033 bytes
+	"!" --> means "not"
