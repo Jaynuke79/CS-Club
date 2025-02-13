@@ -1,0 +1,47 @@
+System Modules
+
+Bash Tools
+  Bash
+  Bash Language Server
+C++ Tools (with Clang)
+  Clang++:Project
+  ccls
+Go Tools
+  go run
+  go fmt
+  gopls
+Java Tools (with Graal VM)
+  GraalVM
+  Maven
+  Java Language Server
+Node.js Tools
+  Node.js
+  Node.js packager (npm, yarn, pnpm, bun)
+  Prettier
+  Typescript Language Server
+Php Tools
+  Php run
+  PHP Composer
+  phpactor
+Python Tools
+  Python 3.12
+  Python packager
+  pyright-extended
+Ruby 3.2 Tools
+  bundle exec ruby
+  Rubygems
+  Solargraph: A Ruby Language Server
+Rust Tools (stable)
+  cargo run
+  Cargo
+  rust-analyzer
+Swift Tools
+  Swift
+  SourceKit
+TypeScript Language Server
+  TypeScript Language Server
+
+System Dependencies
+  kotlin
+  mono
+  typescript
